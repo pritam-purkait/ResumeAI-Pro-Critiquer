@@ -2,6 +2,8 @@
 
 A Python-powered resume analysis tool that provides AI-driven feedback to optimize your resume for the 2026 job market. Built with Streamlit and powered by Google's Gemini AI.
 
+#[Live link](https://resumeaipro.streamlit.app/ "Deployed link")
+
 ## 📋 About This Project
 
 **Note:** This is a learning project as I'm exploring Python development and AI integration.
