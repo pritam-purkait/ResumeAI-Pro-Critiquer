@@ -65,6 +65,12 @@ st.markdown("""
         flex-direction: column;
         flex: 1;
     }
+    .stButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
     .stButton>button {
         width: 100%;
         border-radius: 15px;
@@ -78,6 +84,9 @@ st.markdown("""
         transition: all 0.3s ease;
         cursor: pointer;
         letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .stButton>button:hover {
         background: linear-gradient(135deg, #333333, #4d4d4d, #333333);
@@ -148,7 +157,7 @@ with col1:
 with col2:
     job_role = st.text_input("Target Job Role", placeholder="e.g. Senior Frontend Developer", help="Optional: Tailors the critique to this specific role.")
 
-analyze = st.button("🤔 Analyze My Resume")
+analyze = st.button("🚀Analyze")
 
 
 def extract_text_from_file(uploaded_file):
